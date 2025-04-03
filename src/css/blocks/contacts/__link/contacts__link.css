@@ -1,0 +1,8 @@
+.contacts__link {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    font-family: "Montserrat_Alternates R";
+}

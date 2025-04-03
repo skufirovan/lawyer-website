@@ -1,12 +1,55 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Анатолий Сюсюков</title>
   </head>
-  <body>
-    <script type="module" src="/src/main.js"></script>
+  <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <a class="header__logo" href="/">
+          <img class="header__logo-image" src="images/logo.jpg" alt="logo">
+        </a>
+        <nav class="header__menu">
+          <a class="header__menu-item" href="#">Главная</a>
+          <a class="header__menu-item" href="#">Наши услуги</a>
+          <a class="header__menu-item" href="#">О нас</a>
+          <a class="header__menu-item" href="#">Цены</a>
+          <a class="header__menu-item" href="#">Контакты</a>
+      </nav>
+      </div>
+    </header>
+
+    <main class="page__container">
+
+      <section class="contacts">
+        <div>
+          <ul class="contacts__links">
+            <li class="contacts__link"><img class="contacts__icon" src="images/map-icon.png">г. Москва, ул. Новодмитровская, д.1, 127018</li>
+            <li class="contacts__link"><img class="contacts__icon" src="images/tel-icon.png">+7 (495) 428-76-86</li>
+            <li class="contacts__link"><img class="contacts__icon" src="images/tel-icon.png">+7 (964) 553-62-69</li>
+            <li class="contacts__link"><img class="contacts__icon" src="images/email-icon.png">info@stior.ru</li>
+          </ul>
+          <div class="iframe">
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/house/novodmitrovskaya_ulitsa_1s1/Z04Ycw9kQEIFQFtvfXRxd3lgZA==/?ll=37.584972%2C55.806530&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Новодмитровская улица, 1с1 на карте Москвы, ближайшее метро Дмитровская — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.584972%2C55.806530&mode=whatshere&whatshere%5Bpoint%5D=37.584972%2C55.806530&whatshere%5Bzoom%5D=17&z=16" width="420" height="300" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+          </div>
+        </div>
+        <div class="form-wrapper">
+          <p class="form__title">Свяжитесь с нами</p>
+          <form class="form">
+            <input type="text" class="form__input" placeholder="Имя">
+            <input type="email" class="form__input" placeholder="Почта">
+            <input type="tel" class="form__input" placeholder="Телефон">
+            <textarea class="form__input" placeholder="Сообщение"></textarea>
+            <button type="submit" class="form__submit">Отправить</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+    <script type="module" src="main.js"></script>
   </body>
 </html>

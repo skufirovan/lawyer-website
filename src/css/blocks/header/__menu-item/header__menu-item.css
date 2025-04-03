@@ -1,0 +1,16 @@
+.header__menu-item {
+    color: #003163;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Montserrat_Alternates B';
+    font-size: 20px;
+}
+
+.header__menu-item:hover {
+    color: #00458a; 
+    transform: translateY(-2px);
+}
+
+.header__menu-item:active {
+    color: #00214d;
+}
