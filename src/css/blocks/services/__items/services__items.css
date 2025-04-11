@@ -1,0 +1,17 @@
+.services__items {
+    margin: 0 0 86px;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+@media screen and (max-width: 634px) {
+    .services__items {
+        margin: 0 0 24px;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+}

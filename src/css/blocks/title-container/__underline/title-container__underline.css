@@ -1,0 +1,19 @@
+.title-container__underline {
+    height: 3px;
+    width: 100%;
+    background: #003163;
+    margin-bottom: 48px;
+}
+
+
+@media screen and (max-width: 1064px) {
+    .title-container__underline {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .title-container__underline {
+        font-size: 18px;
+    }
+}

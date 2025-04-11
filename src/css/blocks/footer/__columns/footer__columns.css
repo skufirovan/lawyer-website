@@ -1,0 +1,23 @@
+.footer__columns {
+    margin: 0 auto;
+    padding: 24px 0 24px;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 854px) {
+    .footer__columns {
+        align-items: start;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .footer__columns {
+        flex-direction: column;
+        gap: 24px;
+    }
+}

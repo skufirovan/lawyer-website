@@ -1,0 +1,11 @@
+.footer__column-link {
+    font-family: 'Montserrat_Alternates R';
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 18px;
+    color: black;
+}
+
+.footer__column-link:hover {
+    color: rgb(40, 38, 38);
+}

@@ -1,8 +1,25 @@
 @font-face {
+    font-family: "Montserrat_Alternates EL";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../vendor/fonts/MontserratAlternates-ExtraLight.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat_Alternates L";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../vendor/fonts/MontserratAlternates-Light.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
     font-family: "Montserrat_Alternates R";
     font-style: normal;
     font-weight: 400;
     src: url("../vendor/fonts/MontserratAlternates-Regular.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -10,6 +27,7 @@
     font-style: normal;
     font-weight: 500;
     src: url("../vendor/fonts/MontserratAlternates-Medium.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
@@ -17,4 +35,5 @@
     font-style: normal;
     font-weight: 700;
     src: url("../vendor/fonts/MontserratAlternates-Bold.ttf") format("truetype");
+    font-display: swap;
 }

@@ -2,11 +2,11 @@
     grid-column-start: 1;
     grid-column-end: 3;
 
+    padding: 12px 24px;
     background-color: #003163;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 12px 24px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
@@ -20,4 +20,12 @@
 
 .form__submit:active {
     background-color: #00214d;
+}
+
+@media screen and (max-width: 970px) {
+    .form__submit {
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 12px;
+    }
 }

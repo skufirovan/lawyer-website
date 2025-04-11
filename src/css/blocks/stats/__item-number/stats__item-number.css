@@ -1,0 +1,8 @@
+.stats__item-number[data-target="1000"]::before {
+    content: '> ';
+}
+
+.stats__item-number[data-target="98"]::after {
+    content: '%';
+    font-size: 18px;
+}

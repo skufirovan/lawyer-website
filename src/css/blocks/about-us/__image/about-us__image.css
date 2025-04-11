@@ -1,0 +1,15 @@
+.about-us__image {
+    width: 45%;
+}
+
+@media screen and (max-width: 854px) {
+    .about-us__image {
+        display: none;
+
+        /* margin: 12px auto 0;
+        width: 60%;
+        height: 320px;
+        object-fit: cover;
+        object-position: 0 0; */
+    }
+}

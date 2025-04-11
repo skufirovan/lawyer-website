@@ -1,0 +1,18 @@
+.intro__link-wrapper {
+    position: absolute;
+    bottom: 5%;
+    right: 50%;
+    transform: translateX(50%);
+    z-index: 2;
+}
+
+@media screen and (max-width: 1064px) {
+    .intro__link-wrapper {
+        position: sticky;
+        bottom: 5%;
+        right: auto;
+        margin: 48px auto 5%;
+        width: fit-content;
+        transform: none;
+    }
+}

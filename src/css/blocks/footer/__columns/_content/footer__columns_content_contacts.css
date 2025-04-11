@@ -1,0 +1,4 @@
+.footer__columns_content_contacts {
+    display: flex;
+    flex-direction: column;
+}

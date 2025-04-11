@@ -1,5 +1,16 @@
 .contacts {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 0 auto 82px;
+    width: 80%;
+}
+
+@media screen and (max-width: 1064px) {
+    .contacts {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .contacts {
+        margin-bottom: 32px;
+    }
 }

@@ -5,51 +5,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpeg" href="images/logo.jpg">
     <link rel="stylesheet" href="css/index.css">
-    <title>Анатолий Сюсюков</title>
+    <title>StioR</title>
   </head>
   <body class="page">
     <header class="header">
       <div class="header__container">
-        <a class="header__logo" href="/">
-          <img class="header__logo-image" src="images/logo.jpg" alt="logo">
-        </a>
+        <div class="logo">
+          <a class="logo__container" href="/">
+            <img class="logo__image" src="images/logo-png.png" alt="logo">
+            <span class="logo__name">tior</span>
+          </a>
+          <a class="logo__description" href="/">Юридическая компания</a>
+        </div>
+        
+        <button class="header__dropdown" id="dropdown">☰</button>
+
         <nav class="header__menu">
           <a class="header__menu-item" href="#">Главная</a>
-          <a class="header__menu-item" href="#">Наши услуги</a>
-          <a class="header__menu-item" href="#">О нас</a>
-          <a class="header__menu-item" href="#">Цены</a>
-          <a class="header__menu-item" href="#">Контакты</a>
-      </nav>
+          <a class="header__menu-item" href="#about-us">О нас</a>
+          <a class="header__menu-item" href="#services">Наши услуги</a>
+          <a class="header__menu-item" href="#contacts">Контакты</a>
+        </nav>
       </div>
     </header>
 
-    <main class="page__container">
+    <main class="content">
+      <section class="intro">
+        <div class="intro__text-container">
+          <h1 class="intro__title">
+            Надежность<br>
+            <span class="intro__title-line">Честность<br></span>
+            <span class="intro__title-line">Результат</span>
+          </h1>
+          <p class="intro__subtitle">Мы оправдаем <em style="font-weight: bold; font-style: normal;">Ваши</em> ожидания</p>
+        </div>
 
-      <section class="contacts">
-        <div>
-          <ul class="contacts__links">
-            <li class="contacts__link"><img class="contacts__icon" src="images/map-icon.png">г. Москва, ул. Новодмитровская, д.1, 127018</li>
-            <li class="contacts__link"><img class="contacts__icon" src="images/tel-icon.png">+7 (495) 428-76-86</li>
-            <li class="contacts__link"><img class="contacts__icon" src="images/tel-icon.png">+7 (964) 553-62-69</li>
-            <li class="contacts__link"><img class="contacts__icon" src="images/email-icon.png">info@stior.ru</li>
-          </ul>
-          <div class="iframe">
-            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/house/novodmitrovskaya_ulitsa_1s1/Z04Ycw9kQEIFQFtvfXRxd3lgZA==/?ll=37.584972%2C55.806530&utm_medium=mapframe&utm_source=maps&z=16" style="color:#eee;font-size:12px;position:absolute;top:14px;">Новодмитровская улица, 1с1 на карте Москвы, ближайшее метро Дмитровская — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.584972%2C55.806530&mode=whatshere&whatshere%5Bpoint%5D=37.584972%2C55.806530&whatshere%5Bzoom%5D=17&z=16" width="420" height="300" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+        <div class="intro__video-container">
+          <img class="intro__image" src="images/logo-empty.svg">
+          <video class="intro__video" autoplay loop muted>
+            <source src="videos/moscow.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="intro__link-wrapper">
+          <a class="intro__link" href="#contacts">Заказать звонок</a>
+        </div>
+      </section>
+
+      <section class="about-us" id="about-us">
+        <div class="title-container">
+          <h2 class="title-container__title">О нас</h2>
+          <div class="title-container__underline"></div>
+        </div>
+
+        <div class="about-us__container">
+          <div class="about-us__text">
+            <p style="margin: 0 0 12px;">
+              Юридическая компания StioR была основана в 2018 году адвокатом Йордановски Стефаном, профессионалом с более чем 10-летним опытом работы в сфере гражданского и уголовного права. С момента основания компания активно защищает интересы физических и юридических лиц, предлагая надежные правовые решения в самых сложных ситуациях. Мы ориентируемся на высокий профессионализм, глубокое знание законодательства и внимательное отношение к каждому делу, что позволяет добиваться положительных результатов для наших клиентов.
+            </p>
+            <p style="margin: 0;">
+              Наша компания обладает устойчивой репутацией и доказанной историей успешных дел. Мы ценим доверие клиентов и строим долгосрочные отношения, основанные на надежности, честности и ответственности. С нами клиенты чувствуют себя уверенно, безопасно и защищено, зная, что их права находятся в руках опытных юристов. Мы не просто предоставляем юридические услуги – мы становимся партнерами наших клиентов, помогая им находить оптимальные решения и защищая их интересы на всех уровнях.
+            </p>
+          </div>
+          <img class="about-us__image" src="images/lawyer.jpg" alt="Адвокат Стефан Йордановски">
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="title-container">
+          <h2 class="title-container__title">Чем я могу вам помочь</h2>
+          <div class="title-container__underline"></div>
+        </div>
+
+        <ul class="services__items">
+          <li class="services__item"><img class="services__image" src="images/services-one.png">Уголовные дела</li>
+          <li class="services__item"><img class="services__image" src="images/services-two.png">Закон о защите прав потребителей</li>
+          <li class="services__item"><img class="services__image" src="images/services-three.png">Гражданские дела</li>
+          <li class="services__item"><img class="services__image" src="images/services-four.png">ВЭД</li>
+        </ul>
+
+        <div class="stats">
+          <div class="stats__item">
+            <img src="images/clients-icon.png" class="stats__image">
+            <span class="stats__item-number" data-target="1000">0</span>
+            <span class="stats__item-label">Довольных клиентов</span>
+          </div>
+          <div class="stats__item">
+            <img src="images/experience-icon.png" class="stats__image">
+            <span class="stats__item-number" data-target="7">0</span>
+            <span class="stats__item-label">Лет компании</span>
+          </div>
+          <div class="stats__item">
+            <img src="images/handshake-icon.png" class="stats__image">
+            <span class="stats__item-number" data-target="98">0</span>
+            <span class="stats__item-label">Успешых дел</span>
           </div>
         </div>
-        <div class="form-wrapper">
-          <p class="form__title">Свяжитесь с нами</p>
-          <form class="form">
-            <input type="text" class="form__input" placeholder="Имя">
-            <input type="email" class="form__input" placeholder="Почта">
-            <input type="tel" class="form__input" placeholder="Телефон">
-            <textarea class="form__input" placeholder="Сообщение"></textarea>
-            <button type="submit" class="form__submit">Отправить</button>
-          </form>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="title-container">
+          <h2 class="title-container__title">Контакты</h2>
+          <div class="title-container__underline"></div>
+        </div>
+
+        <div class="contacts__container">
+          <div class="contacts__info">
+            <ul class="contacts__list">
+              <li class="contacts__list-item"><img class="contacts__icon" src="images/map-icon.png">г. Москва, ул. Марксистская, д. 3, с.1, оф. 421, Бизнес-центр «Планета», 109147</li>
+              <li class="contacts__list-item"><img class="contacts__icon" src="images/tel-icon.png"><a class="contacts__link" href="https://wa.me/79852206770" target="_blank">+7 (495) 220-67-70</a></li>
+              <li class="contacts__list-item"><img class="contacts__icon" src="images/tel-icon.png"><a class="contacts__link" href="tel:+79645536269">+7 (964) 553-62-69</a></li>
+              <li class="contacts__list-item"><img class="contacts__icon" src="images/email-icon.png"><a class="contacts__link" href="mailto:info@stior.ru">info@stior.ru</a></li>
+            </ul>
+            <div class="contacts__iframe">
+              <div style="position:relative;overflow:hidden;width: 100%;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/house/marksistskaya_ulitsa_3s1/Z04YcAFhTEMEQFtvfXtyeX9lZw==/?from=mapframe&ll=37.661617%2C55.738387&utm_medium=mapframe&utm_source=maps&z=17.47" style="color:#eee;font-size:12px;position:absolute;top:14px;">Марксистская улица, 3с1 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=37.661617%2C55.738387&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjkwMTY1NhJF0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAsINCc0LDRgNC60YHQuNGB0YLRgdC60LDRjyDRg9C70LjRhtCwLCAz0YExIgoNcaUWQhUV9F5C&z=17.47" width="100%" height="300" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            </div>
+          </div>
+          
+          <div class="form__container">
+            <p class="form__title">Свяжитесь с нами</p>
+            <form class="form">
+              <input type="text" class="form__input" placeholder="Имя">
+              <input type="email" class="form__input" placeholder="Почта">
+              <input type="tel" class="form__input" placeholder="Телефон">
+              <textarea class="form__input" placeholder="Сообщение"></textarea>
+              <button type="submit" class="form__submit">Отправить</button>
+            </form>
+          </div>
         </div>
       </section>
 
     </main>
-    <script type="module" src="main.js"></script>
+
+    <footer class="footer">
+      <div class="footer__columns">
+        <div class="footer__columns_content_logo">
+          <div class="logo">
+            <a class="logo__container" href="/">
+              <img class="logo__image_footer" src="images/logo-png.png" alt="logo">
+              <span class="logo__name">tior</span>
+            </a>
+            <a class="logo__description" href="/">Юридическая компания</a>
+          </div>
+        </div>
+        
+        <div class="footer__columns_content_navigation">
+          <p class="footer__column-heading">Навигация</p>
+          <nav class="footer__column-links">
+            <a class="footer__column-link" href="#">Главная</a>
+            <a class="footer__column-link" href="#about-us">О нас</a>
+            <a class="footer__column-link" href="#services">Наши услуги</a>
+            <a class="footer__column-link" href="#contacts">Контакты</a>
+          </nav>
+        </div>
+
+        <div class="footer__columns_content_contacts">
+          <p class="footer__column-heading">Контакты</p>
+          <nav class="footer__column-links">
+            <a class="footer__column-link" href="tel:+79645536269" target="_blank">+7 (964) 553-62-69</a>
+            <a class="footer__column-link" href="https://wa.me/79852206770" target="_blank">WhatsApp</a>
+            <a class="footer__column-link" href="mailto:info@stior.ru" target="_blank">info@stior.ru</a>
+            <a class="footer__column-link" href="https://yandex.ru/maps/-/CHVwfH1l" target="_blank">Карта</a>
+          </nav>
+        </div>
+
+      </div>
+    </footer>
+    <script type="module" src="index.js"></script>
   </body>
 </html>

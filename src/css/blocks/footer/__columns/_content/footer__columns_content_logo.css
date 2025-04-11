@@ -1,0 +1,17 @@
+.footer__columns_content_logo {
+    width: 50%;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 854px) {
+    .footer__columns_content_logo {
+        width: 30%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 762px) {
+    .footer__columns_content_logo {
+        width: 100%;
+    }
+}

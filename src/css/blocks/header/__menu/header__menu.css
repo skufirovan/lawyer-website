@@ -1,4 +1,21 @@
-.header__menu {
-    display: flex;
-    gap: 3rem;
+@media screen and (max-width: 854px) {
+    .header__menu {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        user-select: none;
+
+        padding: 10% 36px;
+        background-color: #003163;
+        flex-direction: column;
+
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 10;
+    }
 }

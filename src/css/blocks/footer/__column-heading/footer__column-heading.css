@@ -1,0 +1,13 @@
+.footer__column-heading {
+    margin: 0;
+    padding-bottom: 8px;
+    font-family: 'Montserrat_Alternates B';
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 854px) {
+    .footer__column-heading {
+        padding-bottom: 4px;
+    }
+}

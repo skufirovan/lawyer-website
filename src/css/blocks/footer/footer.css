@@ -1,0 +1,10 @@
+.footer {
+    height: 14rem;
+    background-color: gray;
+}
+
+@media screen and (max-width: 762px) {
+    .footer {
+        height: auto;
+    }
+}

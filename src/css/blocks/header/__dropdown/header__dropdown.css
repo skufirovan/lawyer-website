@@ -1,0 +1,15 @@
+.header__dropdown {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 854px) {
+    .header__dropdown {
+        display: block;
+        background-color: #fff;
+        z-index: 11;
+    }
+}

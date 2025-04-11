@@ -1,0 +1,23 @@
+.services__item {
+    margin-bottom: 24px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    font-family: "Montserrat_Alternates R";
+    font-size: 28px;
+}
+
+@media screen and (max-width: 854px) {
+    .services__item {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .services__item {
+        font-size: 24px;
+        margin: 0;
+    }
+}

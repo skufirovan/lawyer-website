@@ -1,0 +1,9 @@
+@media screen and (max-width: 854px) {
+    .header__menu_active {
+        visibility: visible;
+        opacity: 1;
+        pointer-events: all;
+        display: flex;
+    }
+}
+

@@ -1,0 +1,11 @@
+.logo__name {
+    position: relative;
+    background: linear-gradient(to right, #0a5286, #081524);
+    background-clip: text;
+    color: transparent;
+
+    font-family: 'Montserrat_Alternates M';
+    text-decoration: none;
+    font-size: 2.8em;
+    letter-spacing: 2px;
+}

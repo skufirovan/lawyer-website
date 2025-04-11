@@ -1,0 +1,11 @@
+.logo__container {
+    height: 75%;
+    width: fit-content;
+
+    text-decoration: none;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 6px;
+}

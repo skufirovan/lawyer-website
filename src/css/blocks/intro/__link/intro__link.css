@@ -1,0 +1,29 @@
+.intro__link {
+    padding: 12px 24px;
+    background-color: #003163;
+    color: white;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-family: 'Montserrat_Alternates R';
+    line-height: 1.4;
+    font-size: 32px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.intro__link:hover {
+    background-color: #00458a; 
+    transform: translateY(-2px);
+}
+
+.intro__link:active {
+    background-color: #00214d;
+}
+
+@media screen and (max-width: 568px) {
+    .intro__link {
+        font-size: 20px;
+    }
+}

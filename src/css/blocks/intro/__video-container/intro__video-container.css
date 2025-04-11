@@ -1,0 +1,31 @@
+.intro__video-container {
+    position: absolute;
+    right: 10%;
+    top: calc(8rem + 5%);
+    width: 40%;
+    min-width: 320px;
+    height: 420px;
+
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1064px) {
+    .intro__video-container {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    .intro__video-container {
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .intro__video-container {
+        height: 240px;
+    }
+}

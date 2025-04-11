@@ -1,0 +1,16 @@
+.about-us {
+    margin: 0 auto 82px;
+    width: 80%;
+}
+
+@media screen and (max-width: 1064px) {
+    .about-us {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .about-us {
+        margin-bottom: 32px;
+    }
+}

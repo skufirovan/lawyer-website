@@ -7,3 +7,9 @@
 
     font-family: "Montserrat_Alternates R";
 }
+
+@media screen and (max-width: 970px) {
+    .form {
+        display: block;
+    }
+}

@@ -1,0 +1,13 @@
+.logo__image_footer {
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 854px) {
+    .logo__image_footer {
+        width: 64px;
+        height: auto;
+    }
+}

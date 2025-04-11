@@ -1,0 +1,19 @@
+.title-container__title {
+    margin: 0 0 8px;
+    font-family: 'Montserrat_Alternates L';
+    line-height: 1.2;
+    font-size: 64px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1064px) {
+    .title-container__title {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .title-container__title {
+        font-size: 32px;
+    }
+}

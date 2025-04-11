@@ -1,0 +1,12 @@
+.about-us__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+@media screen and (max-width: 854px) {
+    .about-us__container {
+        flex-direction: column;
+    }
+}

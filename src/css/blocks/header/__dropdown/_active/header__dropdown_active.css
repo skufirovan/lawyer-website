@@ -1,0 +1,9 @@
+@media screen and (max-width: 854px) {
+    .header__dropdown_active {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 42px;
+        height: 42px;
+    }
+}
