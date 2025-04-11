@@ -1,8 +1,15 @@
 .header__dropdown {
+    margin: 0;
+    padding: 6px 8px;
+    width: fit-content;
+    height: fit-content;
+
     display: none;
     background: none;
     border: none;
-    font-size: 28px;
+
+    font-size: 32px;
+    line-height: 32px;
     cursor: pointer;
 }
 
@@ -10,6 +17,7 @@
     .header__dropdown {
         display: block;
         background-color: #fff;
+        color: #003163;
         z-index: 11;
     }
 }

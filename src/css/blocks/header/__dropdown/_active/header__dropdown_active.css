@@ -3,7 +3,6 @@
         position: absolute;
         top: 0;
         right: 0;
-        width: 42px;
-        height: 42px;
+        text-align: center;
     }
 }
