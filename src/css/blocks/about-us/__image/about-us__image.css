@@ -1,13 +1,22 @@
 .about-us__image {
     width: 45%;
+    object-fit: cover;
+    object-position: 0 0;
 }
 
 @media screen and (max-width: 854px) {
     .about-us__image {
         margin: 12px auto 24px;
         width: 60%;
-        height: 240px;
-        object-fit: cover;
-        object-position: 0 0;
+        min-height: 240px;
+        max-height: 420px;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .about-us__image {
+        height: 280px;
+        max-height: 360px;
+        object-position: 0 100;
     }
 }
