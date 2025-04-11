@@ -1,5 +1,6 @@
 .contacts__list-item {
     height: 32px;
+    padding-bottom: 12px;
     display: flex;
     align-items: center;
     gap: 12px;

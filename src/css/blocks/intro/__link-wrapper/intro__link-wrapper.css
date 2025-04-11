@@ -8,11 +8,17 @@
 
 @media screen and (max-width: 1064px) {
     .intro__link-wrapper {
-        position: sticky;
-        bottom: 5%;
+        position: relative;
         right: auto;
-        margin: 48px auto 5%;
+        margin: 48px auto 48px;
         width: fit-content;
         transform: none;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .intro__link-wrapper {
+        bottom: 0;
+        margin-bottom: 86px;
     }
 }

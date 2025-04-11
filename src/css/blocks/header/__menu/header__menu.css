@@ -1,8 +1,8 @@
 @media screen and (max-width: 854px) {
     .header__menu {
-        display: none;
         visibility: hidden;
         opacity: 0;
+        transform: translateY(-20%);
         pointer-events: none;
         user-select: none;
 
@@ -17,5 +17,9 @@
         bottom: 0;
         right: 0;
         z-index: 10;
+
+        transition: 
+            opacity 0.3s ease,
+            transform 0.3s ease;
     }
 }

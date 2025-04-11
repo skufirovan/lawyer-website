@@ -4,12 +4,10 @@
 
 @media screen and (max-width: 854px) {
     .about-us__image {
-        display: none;
-
-        /* margin: 12px auto 0;
+        margin: 12px auto 24px;
         width: 60%;
-        height: 320px;
+        height: 240px;
         object-fit: cover;
-        object-position: 0 0; */
+        object-position: 0 0;
     }
 }

@@ -1,6 +1,6 @@
 .footer {
     height: 14rem;
-    background-color: gray;
+    background-color: #e4e3e3;
 }
 
 @media screen and (max-width: 762px) {

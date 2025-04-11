@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 854px) {
     .about-us__container {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
